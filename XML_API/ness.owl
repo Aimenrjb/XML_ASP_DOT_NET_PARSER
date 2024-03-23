@@ -1,0 +1,2596 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/a/ontologies/2022/9/saafinesrine-ontology-100"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/a/ontologies/2022/9/saafinesrine-ontology-100">
+    <Prefix name="" IRI="http://www.semanticweb.org/a/ontologies/2022/9/saafinesrine-ontology-100#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acoustic_array_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adult_Pedestrian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambulance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arrival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audible_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Automated_Guided_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auxilary_Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bicycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caravan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charging_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Child_Pedestrian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dedicated_Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Departure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disabled_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dividing_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Driver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edge_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Express_Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extreme_Weather_Conditions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_Truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gas_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Green_Sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heavy_Weights_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital_Departure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In_Vehicle_Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inductive_loop_sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastructure_Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intrusive_Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kerb_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Local_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manifestation_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manifestation_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Market_Departure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motor_Bike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorised_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#National_Highway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#National_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Intrusive_Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Motorised_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Paved_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Recurrent_Incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Old_Pedestrian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking_Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passing_Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paved_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peak_Hours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pedestrian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pneumatic_Tube_Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police_Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Priority_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private_Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Parking_Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recreational_Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrent_Incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red_Sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regional_Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulatory_Sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repair_Works"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reversible_Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Intersection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Markings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Road_Tunnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School_Departure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semi_Trailer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semi_Trailor_Tractor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sidewalks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tractor_Truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Agent_Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trailer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trailer_Tractor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trajectory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trucks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turn_Lane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ultrasonic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle_Incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VideoCamera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vulnerable_Pedestrian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Warming_Sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#informative_Sign"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Circulates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Detects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Drives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EquippedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HappensIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasEndPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasPosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasStartPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasTimeStamp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InstalledIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsArrangedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsDetectedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsHostedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsObservedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsPropertyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Observes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Posseses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hosts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A1_Tunis_Sousse_Sfax_Gabes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A3_Tunis_Beja_Bouslem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A4_Tunis_Bizerte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMR_LINEAR_LOW_FIELD_SENSOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMR_POSITION_SENSORS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Air-flow_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ariana_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bab_Bhar_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bab_El_jedid_Parking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bab_El_khadhra_Parking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bab_Saadoun_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bab_Saadoun_Tunnel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bab_Souika_Tunnel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bardo_Tunnel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bizerta_Transporter_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bizerte_Bascule_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CO_KMT37_SO8_ANGLE_ANALOG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camshaft_position_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charguia1_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DL9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Djerba_Zarzis_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EL9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#El_Menzah1_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#El_Menzah2_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#El_Menzah8_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Engine_knock_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Engine_speed_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enkhilet_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ennasr_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ennasr_City_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fifth_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GMR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gammart_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garden_Habib_Themeur_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Habib_Bourguiba_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hall_effect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HomeCharger_Charging_Station_27_Rue_Abou_Loubéba_Al_Ansari_Ariana_7102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KMT36H_TDFN_ROHS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KMT_32B_TDFN_ROHS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC10-1-D_230_VAC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC10-1-D_24_VDC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-1-DR_230VAC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-1-RB_230VAC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-2-DR_230VAC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-2-RB_230VAC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-DT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lac1_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marsa_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medjez_El_Beb_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mornag_Bus_stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oxygen_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PL9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paid_Parking_Madina_Bab_Bhar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Avenue_De_Jassmine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Avenue_Habib_Bourguiba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Bab_Laasal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_El_Kasbah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Ezouhour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Lac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Mohammed_V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Mokthar_Attia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Mon_Plaisir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Palace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Sinen_Pecha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Tunis_City"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_minicipal_Ariana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Place_Pasteur_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station_2045_N9_Tunis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station_70_Rue_8603_ChargingStation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Public_Parking_Marsa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL349"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL350"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL351"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL352"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL353"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL354"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL355"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL356"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL357"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL358"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RL9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RN9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RR31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rades_La_Goulette_Bridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rue_Chabane_El_Bhouri_ChargingStation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shell__El_Omrane_Avenue_Belhassen_Ben_Chaabane_1_Av_El_Asyouti__El_Omrane_2073"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smart_Park_P1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sokra_Roundabout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Station-service_Shell_MC_N_130__Tunis_2042"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Station-service_Shell_sortie_Ouest_Ii_Gp5__Tunis__2052"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Station-service_TotalEnergies_EL_MENZAH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Station-service_TotalEnergies_KHEREDDINE_PACHA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Station_Service_Ariana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temperature_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Throttle_position_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tunis_Carthage_Airport_Bus_Stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tunis_Carthage_Airport_Tunnel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Urban_Nord_Public_Parking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voltage_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reed_Switch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#24_Rue_Lac_Huron_ChargingStation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AGIL_R59M+46R_Ave_Mohamed_V__Tunis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CO_MS32_8L_TDFN_2,_5x2,_5_SWITCH_ANALOG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KMT39/TD_TDFN_ROHS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-1-DR_12-24VAC/DC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-1-RB_12-24VAC/DC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-2-DR_12-24VAC/DC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LC20-2-RB_12-24VAC/DC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnetic_Encoders:_KMA36"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manifold_Absolute_Pressure_(MAP)_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OiLibya_R45J+PVX_Tunis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parking_Rue_L&apos;hiver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station__Carthage,_1_La_Marsa,_Gammarth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station__R54P+XP4__Rue_Chabane_El_Bhouri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Station-service_Shell_R5CH+9F7_Jeanne_d&apos;Arc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Total_Charging_Station_R7X8+P9X,_Tunis_ChargingStation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#station_met_ibn_khaldoun_R4JM+8J8_Rue_6673_Tunis"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accident"/>
+        <Class IRI="#Vehicle_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acoustic_array_Sensor"/>
+        <Class IRI="#Non_Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult_Pedestrian"/>
+        <Class IRI="#Pedestrian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambulance"/>
+        <Class IRI="#Priority_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arrival"/>
+        <Class IRI="#Trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audible_Line"/>
+        <Class IRI="#Road_Markings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Automated_Guided_Vehicle"/>
+        <Class IRI="#Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auxilary_Lane"/>
+        <Class IRI="#Lane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bicycle"/>
+        <Class IRI="#Private_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bridge"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Public_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus_Station"/>
+        <Class IRI="#Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#Private_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caravan"/>
+        <Class IRI="#Non_Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charging_Station"/>
+        <Class IRI="#Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Child_Pedestrian"/>
+        <Class IRI="#Pedestrian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dedicated_Lane"/>
+        <Class IRI="#Lane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Departure"/>
+        <Class IRI="#Trajectory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disabled_Vehicle"/>
+        <Class IRI="#Vehicle_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dividing_Line"/>
+        <Class IRI="#Road_Markings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Driver"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edge_Line"/>
+        <Class IRI="#Road_Markings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Express_Lane"/>
+        <Class IRI="#Lane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extreme_Weather_Conditions"/>
+        <Class IRI="#Non_Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_Truck"/>
+        <Class IRI="#Priority_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gas_Station"/>
+        <Class IRI="#Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green_Sign"/>
+        <Class IRI="#Traffic_Light"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heavy_Weights_Vehicle"/>
+        <Class IRI="#Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hospital_Departure"/>
+        <Class IRI="#Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <Class IRI="#Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrared"/>
+        <Class IRI="#Non_Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrastructure"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrastructure_Sensors"/>
+        <Class IRI="#Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrusive_Sensors"/>
+        <Class IRI="#Infrastructure_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kerb_Line"/>
+        <Class IRI="#Road_Markings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lane"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local_Road"/>
+        <Class IRI="#Paved_Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manifestation_Event"/>
+        <Class IRI="#Non_Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manifestation_Events"/>
+        <Class IRI="#Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Market_Departure"/>
+        <Class IRI="#Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motor_Bike"/>
+        <Class IRI="#Private_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorised_Vehicle"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#National_Highway"/>
+        <Class IRI="#Paved_Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#National_Road"/>
+        <Class IRI="#Paved_Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Intrusive_Sensors"/>
+        <Class IRI="#Infrastructure_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Motorised_Vehicle"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Paved_Road"/>
+        <Class IRI="#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Recurrent_Incident"/>
+        <Class IRI="#Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Old_Pedestrian"/>
+        <Class IRI="#Pedestrian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking_Space"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passing_Lane"/>
+        <Class IRI="#Auxilary_Lane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <Class IRI="#Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paved_Road"/>
+        <Class IRI="#Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peak_Hours"/>
+        <Class IRI="#Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pedestrian"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pneumatic_Tube_Sensors"/>
+        <Class IRI="#Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police_Car"/>
+        <Class IRI="#Priority_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Priority_Vehicle"/>
+        <Class IRI="#Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private_Space"/>
+        <Class IRI="#Parking_Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private_Vehicle"/>
+        <Class IRI="#Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Parking_Space"/>
+        <Class IRI="#Parking_Space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public_Vehicle"/>
+        <Class IRI="#Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radar"/>
+        <Class IRI="#Non_Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recreational_Vehicle"/>
+        <Class IRI="#Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurrent_Incident"/>
+        <Class IRI="#Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_Sign"/>
+        <Class IRI="#Traffic_Light"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regional_Road"/>
+        <Class IRI="#Paved_Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulatory_Sign"/>
+        <Class IRI="#Sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repair_Works"/>
+        <Class IRI="#Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reversible_Lane"/>
+        <Class IRI="#Lane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Intersection"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Markings"/>
+        <Class IRI="#Sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Road_Tunnel"/>
+        <Class IRI="#Paved_Road"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roundabout"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School_Departure"/>
+        <Class IRI="#Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semi_Trailer"/>
+        <Class IRI="#Non_Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semi_Trailor_Tractor"/>
+        <Class IRI="#Heavy_Weights_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sidewalks"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sign"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport_Event"/>
+        <Class IRI="#Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Station"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxi"/>
+        <Class IRI="#Public_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theft"/>
+        <Class IRI="#Vehicle_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tractor_Truck"/>
+        <Class IRI="#Heavy_Weights_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Agent_Controller"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Light"/>
+        <Class IRI="#Sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trailer"/>
+        <Class IRI="#Non_Motorised_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trailer_Tractor"/>
+        <Class IRI="#Heavy_Weights_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trucks"/>
+        <Class IRI="#Heavy_Weights_Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turn_Lane"/>
+        <Class IRI="#Auxilary_Lane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ultrasonic"/>
+        <Class IRI="#Non_Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehicle_Incident"/>
+        <Class IRI="#Non_Recurrent_Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoCamera"/>
+        <Class IRI="#Non_Intrusive_Sensors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerable_Pedestrian"/>
+        <Class IRI="#Pedestrian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Warming_Sign"/>
+        <Class IRI="#Sign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Sign"/>
+        <Class IRI="#Traffic_Light"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#informative_Sign"/>
+        <Class IRI="#Sign"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#National_Highway"/>
+        <NamedIndividual IRI="#A1_Tunis_Sousse_Sfax_Gabes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Highway"/>
+        <NamedIndividual IRI="#A3_Tunis_Beja_Bouslem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Highway"/>
+        <NamedIndividual IRI="#A4_Tunis_Bizerte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pneumatic_Tube_Sensors"/>
+        <NamedIndividual IRI="#AMR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#AMR_LINEAR_LOW_FIELD_SENSOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#AMR_POSITION_SENSORS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Air-flow_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Ariana_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Bab_Bhar_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Bab_El_jedid_Parking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Bab_El_khadhra_Parking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Bab_Saadoun_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Road_Tunnel"/>
+        <NamedIndividual IRI="#Bab_Saadoun_Tunnel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Road_Tunnel"/>
+        <NamedIndividual IRI="#Bab_Souika_Tunnel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Road_Tunnel"/>
+        <NamedIndividual IRI="#Bardo_Tunnel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bridge"/>
+        <NamedIndividual IRI="#Bizerta_Transporter_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bridge"/>
+        <NamedIndividual IRI="#Bizerte_Bascule_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#CO_KMT37_SO8_ANGLE_ANALOG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Camshaft_position_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#Charguia1_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dedicated_Lane"/>
+        <NamedIndividual IRI="#DL9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bridge"/>
+        <NamedIndividual IRI="#Djerba_Zarzis_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Express_Lane"/>
+        <NamedIndividual IRI="#EL9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#El_Menzah1_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#El_Menzah2_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#El_Menzah8_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Engine_knock_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Engine_speed_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#Enkhilet_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#Ennasr_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Ennasr_City_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bridge"/>
+        <NamedIndividual IRI="#Fifth_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pneumatic_Tube_Sensors"/>
+        <NamedIndividual IRI="#GMR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Gammart_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#Garden_Habib_Themeur_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Habib_Bourguiba_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pneumatic_Tube_Sensors"/>
+        <NamedIndividual IRI="#Hall_effect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#HomeCharger_Charging_Station_27_Rue_Abou_Loubéba_Al_Ansari_Ariana_7102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#KMT36H_TDFN_ROHS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#KMT_32B_TDFN_ROHS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC10-1-D_230_VAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC10-1-D_24_VDC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-1-DR_230VAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-1-RB_230VAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-2-DR_230VAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-2-RB_230VAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-DT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Lac1_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Marsa_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bridge"/>
+        <NamedIndividual IRI="#Medjez_El_Beb_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#Mornag_Bus_stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Oxygen_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passing_Lane"/>
+        <NamedIndividual IRI="#PL9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Paid_Parking_Madina_Bab_Bhar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Parking_Avenue_De_Jassmine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Avenue_Habib_Bourguiba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Bab_Laasal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_El_Kasbah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Ezouhour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Lac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Mohammed_V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Mokthar_Attia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Mon_Plaisir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Parking_Palace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Sinen_Pecha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Parking_Tunis_City"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Parking_minicipal_Ariana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Parking_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#Place_Pasteur_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station_2045_N9_Tunis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station_70_Rue_8603_ChargingStation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Public_Parking_Marsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL349"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL350"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL351"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL352"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL353"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL354"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL355"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL356"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL357"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Local_Road"/>
+        <NamedIndividual IRI="#RL358"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reversible_Lane"/>
+        <NamedIndividual IRI="#RL9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#National_Road"/>
+        <NamedIndividual IRI="#RN9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regional_Road"/>
+        <NamedIndividual IRI="#RR31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bridge"/>
+        <NamedIndividual IRI="#Rades_La_Goulette_Bridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#Rue_Chabane_El_Bhouri_ChargingStation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#Shell__El_Omrane_Avenue_Belhassen_Ben_Chaabane_1_Av_El_Asyouti__El_Omrane_2073"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Smart_Park_P1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Roundabout"/>
+        <NamedIndividual IRI="#Sokra_Roundabout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#Station-service_Shell_MC_N_130__Tunis_2042"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#Station-service_Shell_sortie_Ouest_Ii_Gp5__Tunis__2052"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#Station-service_TotalEnergies_EL_MENZAH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#Station-service_TotalEnergies_KHEREDDINE_PACHA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#Station_Service_Ariana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Turn_Lane"/>
+        <NamedIndividual IRI="#TL9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Temperature_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Throttle_position_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus_Station"/>
+        <NamedIndividual IRI="#Tunis_Carthage_Airport_Bus_Stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Road_Tunnel"/>
+        <NamedIndividual IRI="#Tunis_Carthage_Airport_Tunnel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Public_Parking_Space"/>
+        <NamedIndividual IRI="#Urban_Nord_Public_Parking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Voltage_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pneumatic_Tube_Sensors"/>
+        <NamedIndividual IRI="#reed_Switch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#24_Rue_Lac_Huron_ChargingStation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#AGIL_R59M+46R_Ave_Mohamed_V__Tunis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#CO_MS32_8L_TDFN_2,_5x2,_5_SWITCH_ANALOG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#KMT39/TD_TDFN_ROHS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-1-DR_12-24VAC/DC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-1-RB_12-24VAC/DC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-2-DR_12-24VAC/DC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inductive_loop_sensors"/>
+        <NamedIndividual IRI="#LC20-2-RB_12-24VAC/DC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passive_Magnetic_Sensors"/>
+        <NamedIndividual IRI="#Magnetic_Encoders:_KMA36"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#In_Vehicle_Sensors"/>
+        <NamedIndividual IRI="#Manifold_Absolute_Pressure_(MAP)_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#OiLibya_R45J+PVX_Tunis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Private_Space"/>
+        <NamedIndividual IRI="#Parking_Rue_L&apos;hiver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station__Carthage,_1_La_Marsa,_Gammarth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#Porsche_Destination_Charging_Station__R54P+XP4__Rue_Chabane_El_Bhouri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#Station-service_Shell_R5CH+9F7_Jeanne_d&apos;Arc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Charging_Station"/>
+        <NamedIndividual IRI="#Total_Charging_Station_R7X8+P9X,_Tunis_ChargingStation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gas_Station"/>
+        <NamedIndividual IRI="#station_met_ibn_khaldoun_R4JM+8J8_Rue_6673_Tunis"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Circulates"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Drives"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#HappensIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Observes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#HasProperty"/>
+        <ObjectProperty IRI="#IsPropertyOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsArrangedIn"/>
+        <ObjectProperty IRI="#Posseses"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsHostedBy"/>
+        <ObjectProperty IRI="#hosts"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsObservedBy"/>
+        <ObjectProperty IRI="#Observes"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Circulates"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Detects"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Drives"/>
+        <Class IRI="#Driver"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EquippedBy"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HappensIn"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasEndPoint"/>
+        <Class IRI="#Trajectory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasPosition"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasProperty"/>
+        <Class IRI="#Driver"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasStartPoint"/>
+        <Class IRI="#Trajectory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasTimeStamp"/>
+        <Class IRI="#Trajectory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasValue"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InstalledIn"/>
+        <Class IRI="#Infrastructure_Sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsArrangedIn"/>
+        <Class IRI="#In_Vehicle_Sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsDetectedBy"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsObservedBy"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsPropertyOf"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Observes"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Posseses"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hosts"/>
+        <Class IRI="#Automated_Guided_Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Circulates"/>
+        <Class IRI="#Infrastructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Detects"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Drives"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EquippedBy"/>
+        <Class IRI="#Infrastructure_Sensors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HappensIn"/>
+        <Class IRI="#Infrastructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasEndPoint"/>
+        <Class IRI="#Infrastructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasPosition"/>
+        <Class IRI="#Infrastructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasProperty"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasStartPoint"/>
+        <Class IRI="#Infrastructure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasTimeStamp"/>
+        <Class IRI="#Trajectory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasValue"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#HasValue"/>
+            <Class IRI="#Infrastructure"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#InstalledIn"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsArrangedIn"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsDetectedBy"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsObservedBy"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsPropertyOf"/>
+        <Class IRI="#Driver"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Observes"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Posseses"/>
+        <Class IRI="#In_Vehicle_Sensors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hosts"/>
+        <Class IRI="#Sensors"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ambulance</IRI>
+        <Literal>a vehicle equipped for taking sick or injured people to and from hospital, especially in emergencies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Audible_Line</IRI>
+        <Literal>Audio-Tactile Ribs (also know as audible edge line / rumble strips) are a raised thermoplastic “bump” situated in series to form a longitudinal line. As the name suggests, they provide an audible noise when driven over as well as noticeable feedback throughout the vehicle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Automated_Guided_Vehicle</IRI>
+        <Literal>called self-guided vehicles or autonomous guided vehicles, automated guided vehicles (AGVs) are material handling systems or load carriers that travel autonomously throughout a warehouse, distribution center, or manufacturing facility, without an onboard operator or driver.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bicycle</IRI>
+        <Literal>a vehicle with two wheels tandem, handlebars for steering, a saddle seat, and pedals by which it is propelled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bridge</IRI>
+        <Literal>a structure carrying a pathway or roadway over a depression or obstacle (such as a river</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bus</IRI>
+        <Literal>a large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bus_Station</IRI>
+        <Literal>is a building which buses leave from or arrive on regular journeys.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Car</IRI>
+        <Literal>a four-wheeled road vehicle that is powered by an engine and is able to carry a small number of people.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Caravan</IRI>
+        <Literal>a vehicle equipped for living in, typically towed by a car and used for holidays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Charging_Station</IRI>
+        <Literal>An electric vehicle charging station is equipment that connects an electric vehicle (EV) to a source of electricity to recharge electric cars, neighborhood electric vehicles and plug-in hybrids. Some charging stations have advanced features such as Smart metering, cellular capability and network connectivity, while others are more basic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dividing_Line</IRI>
+        <Literal>A dividing line is a road marking formed by a white line or two parallel white lines (broken or continuous) designed to separate the parts of a road to be used by vehicles travelling in opposite directions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Driver</IRI>
+        <Literal>a person who drives a vehicle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edge_Line</IRI>
+        <Literal>Edge lines are used to outline and separate the outside edge of the pavement from the shoulder. Right edge lines are marked with a solid white line and left edge lines are marked with a solid yellow line.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fire_Truck</IRI>
+        <Literal>a vehicle carrying firefighters and equipment for fighting large fires; a fire engine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gas_Station</IRI>
+        <Literal>a retail station for servicing motor vehicles especially with gasoline and oil. — called also service station.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Heavy_Weights_Vehicle</IRI>
+        <Literal>Vehicles which have weight greater than 3T5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#In_Vehicle_Sensors</IRI>
+        <Literal>crucial electrical component of an automobile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Incident</IRI>
+        <Literal>an event that is either unpleasant or unusual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Inductive_loop_sensors</IRI>
+        <Literal>inductive loops that are wire coils buried into roads and send data to processing units. This group of sensors is
+the most used in traffic control systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Infrastructure_Sensors</IRI>
+        <Literal>crucial electrical component installed in the infrastructure .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Intrusive_Sensors</IRI>
+        <Literal>Intrusive sensors are installed on pavement surfaces. They have high accuracy,but they also have high installation and maintenance costs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kerb_Line</IRI>
+        <Literal>kerb line means the boundary between the shoulder and the verge or, in the absence of a shoulder, the part between the edge of the roadway and the verge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lane</IRI>
+        <Literal>Painted lines on the plant floor where the vehicle navigate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Local_Road</IRI>
+        <Literal>Local Road or Street means and refer to local roads or streets accepting traffic from collector streets and distribute the traffic through subdivisions, neighborhoods and business areas to individual homes, apartments, business sites, and industrial sites.
+For Sfax there are 26 local roads (from RL904 to RL929) connect the small towns to the road network local, regional, and national.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal>the basic physical and organizational structures and facilities (e.g. buildings, roads, power supplies) needed for the operation of a society or enterprise.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motor_Bike</IRI>
+        <Literal>A motorbike is a two-wheeled vehicle with an engine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motorised_Vehicle</IRI>
+        <Literal>A motor vehicle, also known as motorized vehicle or automotive vehicle, is a self-propelled land vehicle, commonly wheeled, that does not operate on rails (such as trains or trams) and is used for the transportation of people or cargo.
+
+The vehicle propulsion is provided by an engine or motor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#National_Road</IRI>
+        <Literal>A road forming part of a network of major intercity roads. &apos;the old national road tells you you are going somewhere important&apos;
+Sfax city is composed of 14 national roads from named NR1 to NR14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non_Intrusive_Sensors</IRI>
+        <Literal>Non-intrusive sensors are installed at different places on the roads (other than over it and could detect a vehicle’s transit and other parameters such as vehicle speed, and lane coverage. However, they are expensive and may be affected by environmental conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non_Motorised_Vehicle</IRI>
+        <Literal>“Non-Motorized Equipment” shall mean a non-self-propelled vehicle or piece of equipment designed or used to transport persons or property on land, but excluding any equipment that runs on stationary rails, guideways, or tracks. Non-Motorized Vehicles and Non-Motorized Equipment do not have self-propelling power systems permanently or temporarily attached, but may be equipped with powered equipment. Examples include trailers, solar or battery powered arrow or message boards, baggage carts, aircraft ground power units, aircraft air power units, dollies, nitrogen carts, work stands, aircraft tow bars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non_Paved_Road</IRI>
+        <Literal>are tracks :not covered with a firm, level surface of asphalt, concrete, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Non_Recurrent_Incident</IRI>
+        <Literal>is a result of an unexpected or Non typical event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parking_Space</IRI>
+        <Literal>Spaces in which cars are parked</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Passive_Magnetic_Sensors</IRI>
+        <Literal>sensors which are installed on roads and are connected either wired or wirelessly to processing units.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Paved_Road</IRI>
+        <Literal>Paved road means an asphalt or concrete surfaced thoroughfare or right-of-way designed or used for vehicular traffic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pedestrian</IRI>
+        <Literal>a person walking rather than travelling in a vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal>Anybody who is intuitively recognizable as a human.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pneumatic_Tube_Sensors</IRI>
+        <Literal>pneumatic tube sensors placed across the road which transmit data to processing units through wired/wireless media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Police_Car</IRI>
+        <Literal>a car used by police officers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Priority_Vehicle</IRI>
+        <Literal>Priority vehicles are emergency vehicles . Emergency vehicle priority is helping save lives by enabling emergency vehicles to safely reach their destination up to 26 percent faster.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Private_Vehicle</IRI>
+        <Literal>Private vehicle means any vehicle that is used primarily for the private purpose of the person who owns it or of a person otherwise having the right to use it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Public_Vehicle</IRI>
+        <Literal>a system of vehicles such as buses and trains that operate at regular times on fixed routes and are used by the public</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recreational_Vehicle</IRI>
+        <Literal>A recreational vehicle, often abbreviated as RV, is a motor vehicle or trailer which includes living quarters designed for accommodation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Recurrent_Incident</IRI>
+        <Literal>is a regular or a repeated event .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regional_Road</IRI>
+        <Literal>The term regional road (or route) is used in a number of places to designate roads of more than purely local but less than national strategic importance in a country&apos;s highway networ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Regulatory_Sign</IRI>
+        <Literal>regulatory sign is used to indicate or reinforce traffic laws, regulations or requirements which apply either at all times or at specified times or places upon a street or highway, the disregard of which may constitute a violation, or a sign in general that regulates public behavior in places open to the public.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Road</IRI>
+        <Literal>a wide way leading from one place to another, especially one with a specially prepared surface which vehicles can use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Road_Intersection</IRI>
+        <Literal>Road Intersection is where two or more roads meet and or are the points of potential vehicle conflict.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Road_Markings</IRI>
+        <Literal>Road marking (or line marking) is the application of paints or materials on road surfaces, pavements, concrete or asphalt to communicate information to motorists and pedestrians.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Road_Tunnel</IRI>
+        <Literal>A transport structure that runs beneath the surface of the earth, under the sea or river and serves for road transport.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Roundabout</IRI>
+        <Literal>is a circular intersection where drivers travel counterclockwise around a center island.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Semi_Trailor_Tractor</IRI>
+        <Literal>also known as a semitruck , is the combination of a tractor unit and one or more semi-trailers to carry freight. A semi-trailer attaches to the tractor with a type of hitch called a fifth wheel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sensors</IRI>
+        <Literal>a device which detects or measures a physical property and records, indicates, or otherwise responds to it. they are responsible for monitoring the observed element to detect stimulus and to send the detected measurements to the controller in order to be analyzed and stored in the database(Sensors transform an incoming stimulus into another producing sensor outputs with deffirent values)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sidewalks</IRI>
+        <Literal>Sidewalks provide dedicated space intended for use by pedestrians that is safe, comfortable, and accessible to all. Sidewalks are physically separated from the roadway by a curb or unpaved buffer space.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sign</IRI>
+        <Literal>Traffic Symbol Signs and Road Symbols To facilitate road traffic and to increase road safety through the adoption of uniform traffic rules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Station</IRI>
+        <Literal>a building and the surrounding area where buses or trains stop for people to get on or off.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Taxi</IRI>
+        <Literal>a motor vehicle licensed to transport passengers in return for payment of a fare and typically fitted with a taximeter.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tractor_Truck</IRI>
+        <Literal>is a motor vehicle designed and used primarily for drawing other vehicles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Traffic_Agent_Controller</IRI>
+        <Literal>The role of traffic agents is to actively manage the movement of people who drive, bike and walk through key Toronto intersections – which reduces delays and improves safety.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Trailer_Tractor</IRI>
+        <Literal>a large truck with a long trailer attached to the back of it</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Trajectory</IRI>
+        <Literal>Is the travel schema followed by  that the driver or the pedestrian from a special location to there point of interest such as school or a market.....</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Trucks</IRI>
+        <Literal>a large road vehicle that is used for transporting large amounts of goods.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehicle</IRI>
+        <Literal>It is a machine that transport people.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Warming_Sign</IRI>
+        <Literal>A warning sign is a type of sign which indicates a potential hazard, obstacle, or condition requiring special attention.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#informative_Sign</IRI>
+        <Literal>An informative sign is a very legibly printed and very noticeable placard that informs people of the purpose of an object, or gives them instruction on the use of something</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

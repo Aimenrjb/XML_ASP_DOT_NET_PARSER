@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\XML_CLIENT.props" />
+</Project>

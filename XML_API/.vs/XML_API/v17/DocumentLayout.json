@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Privat\\th X project\\XML\\XML_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\ixmldeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:ixmldeserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\core\\persistence\\ontologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:core\\persistence\\ontologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\core\\interfaces\\iontologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:core\\interfaces\\iontologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\controllers\\xmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:controllers\\xmlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\core\\entities\\ontology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:core\\entities\\ontology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\xml_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:xml_api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|c:\\privat\\th x project\\xml\\xml_api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{635C3BAA-F787-435E-A07B-E548FA38E0C3}|XML_API.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Privat\\th X project\\XML_CLIENT\\Pages\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OntologyService.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\Core\\Persistence\\OntologyService.cs",
+              "RelativeDocumentMoniker": "Core\\Persistence\\OntologyService.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\Core\\Persistence\\OntologyService.cs",
+              "RelativeToolTip": "Core\\Persistence\\OntologyService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwDAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:54:40.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOntologyService.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\Core\\Interfaces\\IOntologyService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IOntologyService.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\Core\\Interfaces\\IOntologyService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IOntologyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:52:28.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IXmlDeserializer.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\IXmlDeserializer.cs",
+              "RelativeDocumentMoniker": "IXmlDeserializer.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\IXmlDeserializer.cs",
+              "RelativeToolTip": "IXmlDeserializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:41:45.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:35:17.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "XML_API.http",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\XML_API.http",
+              "RelativeDocumentMoniker": "XML_API.http",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\XML_API.http",
+              "RelativeToolTip": "XML_API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-22T14:37:48.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:32:52.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "xmlParser.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\Controllers\\xmlParser.cs",
+              "RelativeDocumentMoniker": "Controllers\\xmlParser.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\Controllers\\xmlParser.cs",
+              "RelativeToolTip": "Controllers\\xmlParser.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:33:39.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:37:28.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ontology.cs",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML\\XML_API\\Core\\Entities\\Ontology.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Ontology.cs",
+              "ToolTip": "C:\\Privat\\th X project\\XML\\XML_API\\Core\\Entities\\Ontology.cs",
+              "RelativeToolTip": "Core\\Entities\\Ontology.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T14:35:42.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Privat\\th X project\\XML_CLIENT\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\XML_CLIENT\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Privat\\th X project\\XML_CLIENT\\Pages\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\XML_CLIENT\\Pages\\Index.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T14:52:21.025Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 91,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

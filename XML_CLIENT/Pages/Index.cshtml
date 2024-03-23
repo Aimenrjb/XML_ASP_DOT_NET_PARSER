@@ -1,0 +1,122 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .column {
+        width: 100%; /* Each column will take up the full width */
+        padding: 10px;
+        margin-bottom: 20px; /* Add some spacing between columns */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #dddddd; /* Add border to the whole table */
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .page-link {
+        display: inline-block;
+        padding: 8px 16px;
+        text-decoration: none;
+        cursor: pointer;
+        background-color: #ffffff; /* Background color for pagination links */
+        border: 1px solid #dddddd; /* Add border to pagination links */
+        margin: 0 5px; /* Add some spacing between pagination links */
+    }
+
+        .page-link:hover {
+            background-color: #f2f2f2;
+        }
+</style>
+
+        <div id="tablesContainer"></div>
+        <div id="paginationContainer" class="pagination"></div>
+
+<script src="./lib/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+        let ontologyData;
+        let currentPage = 1;
+        const itemsPerPage = 20; // Adjust as needed
+
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+            url: "https://localhost:44332/api/xmlParser",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    console.log(data); // Log the fetched data
+                    ontologyData = data; // Save the fetched data to the global variable
+                    displayTablesFromData(data); // Call function to display tables
+                    displayPagination();
+                },
+                error: function (error) {
+                    console.error("Error fetching data:", error);
+                }
+            });
+        });
+
+
+
+
+
+        // Function to generate HTML table for an array of data
+        function displayTablesFromData(data) {
+            const tablesContainer = document.getElementById("tablesContainer");
+            tablesContainer.innerHTML = ""; // Clear previous tables
+
+            for (const tableName in data) {
+                if (data.hasOwnProperty(tableName) && Array.isArray(data[tableName])) {
+                    const tableData = data[tableName];
+                    const startIndex = (currentPage - 1) * itemsPerPage;
+                    const endIndex = Math.min(startIndex + itemsPerPage, tableData.length);
+                    let tableHtml = generateTable(tableData, startIndex, endIndex);
+                    tablesContainer.innerHTML += `<div class="column"><h2>${tableName}</h2>${tableHtml}</div>`;
+                }
+            }
+        }
+
+        function generateTable(dataArray, startIndex, endIndex) {
+            let html = "<table>";
+            for (let i = startIndex; i < endIndex; i++) {
+                html += "<tr><td>" + JSON.stringify(dataArray[i]) + "</td></tr>"; // Convert object to string
+            }
+            html += "</table>";
+            return html;
+        }
+        // Function to display pagination links
+        function displayPagination() {
+            const totalPages = Math.ceil(ontologyData.declarations.length / itemsPerPage);
+            const paginationContainer = document.getElementById("paginationContainer");
+            let paginationHtml = "";
+            for (let i = 1; i <= totalPages; i++) {
+                paginationHtml += `<a href="#" class="page-link" onclick="goToPage(${i})">${i}</a>`;
+            }
+            paginationContainer.innerHTML = paginationHtml;
+        }
+
+        // Function to navigate to a specific page
+        function goToPage(pageNumber) {
+            currentPage = pageNumber;
+            displayTablesFromData(ontologyData);
+            displayPagination();
+        }
+</script>  
