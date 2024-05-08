@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Infrastructure.Services;
+using Microsoft.AspNetCore.Mvc;
 using XML_API.Core.Entities;
-using XML_API.Core.Interfaces;
 
 namespace XML_API.Controllers
 {
@@ -8,9 +8,9 @@ namespace XML_API.Controllers
     [ApiController]
     public class xmlParserController : ControllerBase
     {
-        private readonly IOntologyService _ontologyService;
+        private readonly Infrastructure.Persistence.OntologyService _ontologyService;
 
-        public xmlParserController(IOntologyService ontologyService)
+        public xmlParserController(Infrastructure.Persistence.OntologyService ontologyService)
         {
             _ontologyService = ontologyService;
         }

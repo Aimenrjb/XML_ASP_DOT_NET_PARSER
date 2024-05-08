@@ -1,16 +1,19 @@
 ﻿using System.Xml.Serialization;
 using XML_API.Core.Interfaces;
 using XML_API.Core.Entities;
+using XML_API.Core.Data;
 
 namespace Infrastructure.Persistence
 {
-    public class OntologyService : IOntologyService
+    public class OntologyService
     {
         private readonly string _xmlFilePath;
+        private readonly ApplicationDbContext _context;
 
-        public OntologyService(string xmlFilePath)
+        public OntologyService(ApplicationDbContext applicationDbContext)
         {
-            _xmlFilePath = xmlFilePath;
+            _xmlFilePath = "ness.owl";
+            _context = applicationDbContext;
         }
 
         public Ontology GetOntology()
@@ -37,7 +40,11 @@ namespace Infrastructure.Persistence
                             declaration.ItemType = "ObjectProperty";
                         }
                     }
+                    _context.Ontologies.Add(ontology);
+                    _context.SaveChanges();
                     return ontology;
+                   
+
                 }
             }
             catch (Exception ex)

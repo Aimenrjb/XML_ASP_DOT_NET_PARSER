@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XML_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b471837169ed80afeb0cb82b6892814cd254900")]
 [assembly: System.Reflection.AssemblyProductAttribute("XML_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XML_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Privat\\th X project\\XML\\XML_API\\XML_API.csproj": {}
+    "C:\\projects\\Kamel\\XML_ASP_DOT_NET_PARSER\\XML_API\\XML_API.csproj": {}
   },
   "projects": {
-    "C:\\Privat\\th X project\\XML\\XML_API\\XML_API.csproj": {
+    "C:\\projects\\Kamel\\XML_ASP_DOT_NET_PARSER\\XML_API\\XML_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Privat\\th X project\\XML\\XML_API\\XML_API.csproj",
+        "projectUniqueName": "C:\\projects\\Kamel\\XML_ASP_DOT_NET_PARSER\\XML_API\\XML_API.csproj",
         "projectName": "XML_API",
-        "projectPath": "C:\\Privat\\th X project\\XML\\XML_API\\XML_API.csproj",
-        "packagesPath": "C:\\Users\\aimen.rejeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Privat\\th X project\\XML\\XML_API\\obj\\",
+        "projectPath": "C:\\projects\\Kamel\\XML_ASP_DOT_NET_PARSER\\XML_API\\XML_API.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Kamel\\XML_ASP_DOT_NET_PARSER\\XML_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aimen.rejeb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +25,7 @@
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -49,6 +50,24 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -73,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
