@@ -28,5 +28,26 @@ namespace XML_API.Controllers
                 return StatusCode(500, $"Error reading or deserializing the ontology: {ex.Message}");
             }
         }
+        [HttpPost("upload")]
+        public async Task<IActionResult> UploadFile(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("No file uploaded.");
+            }
+
+            try
+            {
+
+                // Pass the file stream to the service
+                var result = await _ontologyService.ProcessOntologyFile(file.OpenReadStream());
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error processing the file: {ex.Message}");
+            }
+        }
     }
 }

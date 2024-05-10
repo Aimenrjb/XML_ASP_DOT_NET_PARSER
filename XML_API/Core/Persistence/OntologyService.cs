@@ -2,6 +2,7 @@
 using XML_API.Core.Interfaces;
 using XML_API.Core.Entities;
 using XML_API.Core.Data;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace Infrastructure.Persistence
 {
@@ -51,6 +52,31 @@ namespace Infrastructure.Persistence
             {
                 throw new Exception($"Error reading or deserializing the ontology: {ex.Message}");
             }
+        }
+
+        public async Task<Ontology> ProcessOntologyFile(Stream fileStream)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(Ontology));
+            Ontology ontology = (Ontology)serializer.Deserialize(fileStream);
+            // Set ItemType for each Declaration based on the type of Item
+            foreach (var declaration in ontology.Declarations)
+            {
+                if (declaration.Item is NamedIndividual)
+                {
+                    declaration.ItemType = "NamedIndividual";
+                }
+                else if (declaration.Item is Class)
+                {
+                    declaration.ItemType = "Class";
+                }
+                else if (declaration.Item is ObjectProperty)
+                {
+                    declaration.ItemType = "ObjectProperty";
+                }
+            }
+            _context.Ontologies.Add(ontology);
+            _context.SaveChanges();
+            return ontology;
         }
     }
 }

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Design;
 var builder = WebApplication.CreateBuilder(args);
 // Configuration des bases de données
 builder.Services.AddDbContext<ApplicationDbContext>(opt =>
-    opt.UseSqlServer("Server=localhost;Database=XML_parser_DB;Integrated Security=True;TrustServerCertificate=True"));
+    opt.UseSqlServer("Server=localhost;Database=XML_parser_DB;Integrated Security=True;TrustServerCertificate=True;Connection Timeout=120;"));
 //.UseSqlServer(@"Server=tcp:mydatabase2701.database.windows.net,1433;Initial Catalog=dbmourad;Persist Security Info=False;User ID=arejeb;Password=chAkayu5r5d!a;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 //opt.UseSqlite("Filename=MyDatabase.db"));
 // Add services to the container.
